@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head><title th:text="${post.title}">상세 보기</title></head>
+<body>
+<h2 th:text="${post.title}"></h2>
+<p><b>작성자:</b> <span th:text="${post.author}"></span></p>
+<p th:text="${post.content}"></p>
+<a href="/posts">목록으로</a>
+</body>
+</html>
