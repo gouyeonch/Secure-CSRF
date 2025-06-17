@@ -19,7 +19,7 @@ public class ArticleController {
     @PostConstruct
     public void initDummyPosts() {
         posts.add(new Article("환영합니다!", "이 게시판은 테스트용입니다.", "admin"));
-        posts.add(new Article("CSRF란 무엇인가", "<a href='/attacker.html'>이벤트 참여하고 선물 받기 🎁</a>", "attacker"));
+        posts.add(new Article("CSRF란 무엇인가", "<a href='http://localhost:8082/attacker.html'>이벤트 참여하고 선물 받기 \uD83C\uDF81</a>", "attacker"));
     }
 
     @GetMapping("/new.html")
