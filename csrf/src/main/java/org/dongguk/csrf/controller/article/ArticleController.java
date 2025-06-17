@@ -41,17 +41,17 @@ public class ArticleController {
         String user = (String) session.getAttribute("user");
         if (user == null) return "redirect:/login-form";
 
-//      1. CSRF 토큰 검증
-       String expected = (String) session.getAttribute("csrfToken");
-       if (expected == null || !expected.equals(csrfToken)) {
-           return ResponseEntity.status(403).body("CSRF Token Invalid");
-       }
+// //      1. CSRF 토큰 검증
+//        String expected = (String) session.getAttribute("csrfToken");
+//        if (expected == null || !expected.equals(csrfToken)) {
+//            return ResponseEntity.status(403).body("CSRF Token Invalid");
+//        }
 
        // 2. Origin 헤더 검증
-       String origin = request.getHeader("Origin");
-       if (origin != null && !origin.equals("http://localhost:8080")) {
-           return ResponseEntity.status(403).body("Invalid Origin: " + origin);
-       }
+    //    String origin = request.getHeader("Origin");
+    //    if (origin != null && !origin.equals("http://localhost:8080")) {
+    //        return ResponseEntity.status(403).body("Invalid Origin: " + origin);
+    //    }
 
         Article newPost = new Article(title, content, user);
         posts.add(newPost);

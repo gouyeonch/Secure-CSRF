@@ -7,3 +7,73 @@
 [2025-06-17T19:58:49.545Z] info      - Using password from $PASSWORD
 [2025-06-17T19:58:49.545Z] info    - Not serving HTTPS
 [2025-06-17T19:58:49.545Z] info  Session server listening on /home/coder/.local/share/code-server/code-server-ipc.sock
+[2025-06-17T20:01:01.276Z] info  Wrote default config file to /home/coder/.config/code-server/config.yaml
+[2025-06-17T20:01:01.367Z] info  code-server 4.100.3 409c64e0df4d53530e59c16acc2b5d5766f717b0
+[2025-06-17T20:01:01.368Z] info  Using user-data-dir /home/coder/.local/share/code-server
+[2025-06-17T20:01:01.373Z] info  Using config file /home/coder/.config/code-server/config.yaml
+[2025-06-17T20:01:01.374Z] info  HTTP server listening on http://0.0.0.0:8081/
+[2025-06-17T20:01:01.374Z] info    - Authentication is enabled
+[2025-06-17T20:01:01.374Z] info      - Using password from $PASSWORD
+[2025-06-17T20:01:01.374Z] info    - Not serving HTTPS
+[2025-06-17T20:01:01.374Z] info  Session server listening on /home/coder/.local/share/code-server/code-server-ipc.sock
+[2025-06-17T20:04:19.086Z] info  Wrote default config file to /home/coder/.config/code-server/config.yaml
+[2025-06-17T20:04:19.171Z] info  code-server 4.100.3 409c64e0df4d53530e59c16acc2b5d5766f717b0
+[2025-06-17T20:04:19.171Z] info  Using user-data-dir /home/coder/.local/share/code-server
+[2025-06-17T20:04:19.176Z] info  Using config file /home/coder/.config/code-server/config.yaml
+[2025-06-17T20:04:19.176Z] info  HTTP server listening on http://0.0.0.0:8081/
+[2025-06-17T20:04:19.176Z] info    - Authentication is enabled
+[2025-06-17T20:04:19.176Z] info      - Using password from $PASSWORD
+[2025-06-17T20:04:19.176Z] info    - Not serving HTTPS
+[2025-06-17T20:04:19.176Z] info  Session server listening on /home/coder/.local/share/code-server/code-server-ipc.sock
+[20:04:58] 
+
+
+
+
+[20:04:58] Extension host agent started.
+[20:04:58] Started initializing default profile extensions in extensions installation folder. file:///home/coder/.local/share/code-server/extensions
+[20:04:58] ComputeTargetPlatform: linux-arm64
+[20:04:58] Completed initializing default profile extensions in extensions installation folder. file:///home/coder/.local/share/code-server/extensions
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+[20:04:58] [192.168.65.1][c367e42d][ManagementConnection] New connection established.
+[20:04:58] [192.168.65.1][24bde736][ExtensionHostConnection] New connection established.
+[20:04:59] [192.168.65.1][24bde736][ExtensionHostConnection] <696> Launched Extension Host Process.
+[2025-06-17T20:06:22.878Z] info  code-server 4.100.3 409c64e0df4d53530e59c16acc2b5d5766f717b0
+[2025-06-17T20:06:22.879Z] info  Using user-data-dir /home/coder/.local/share/code-server
+[2025-06-17T20:06:22.887Z] info  Using config file /home/coder/.config/code-server/config.yaml
+[2025-06-17T20:06:22.887Z] info  HTTP server listening on http://0.0.0.0:8081/
+[2025-06-17T20:06:22.887Z] info    - Authentication is enabled
+[2025-06-17T20:06:22.887Z] info      - Using password from $PASSWORD
+[2025-06-17T20:06:22.887Z] info    - Not serving HTTPS
+[2025-06-17T20:06:22.887Z] info  Session server listening on /home/coder/.local/share/code-server/code-server-ipc.sock
+[20:06:27] 
+
+
+
+
+[20:06:27] Extension host agent started.
+[20:06:27] [192.168.65.1][c367e42d][ManagementConnection] Unknown reconnection token (never seen).
+[20:06:27] [192.168.65.1][24bde736][ExtensionHostConnection] Unknown reconnection token (never seen).
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+[20:06:34] [192.168.65.1][14bc684e][ManagementConnection] New connection established.
+[20:06:34] ComputeTargetPlatform: linux-arm64
+[20:06:34] [192.168.65.1][46626af6][ExtensionHostConnection] New connection established.
+[20:06:34] [192.168.65.1][46626af6][ExtensionHostConnection] <780> Launched Extension Host Process.
+[2025-06-17T20:07:13.726Z] info  code-server 4.100.3 409c64e0df4d53530e59c16acc2b5d5766f717b0
+[2025-06-17T20:07:13.726Z] info  Using user-data-dir /home/coder/.local/share/code-server
+[2025-06-17T20:07:13.731Z] info  Using config file /home/coder/.config/code-server/config.yaml
+[2025-06-17T20:07:13.731Z] info  HTTP server listening on http://0.0.0.0:8081/
+[2025-06-17T20:07:13.731Z] info    - Authentication is enabled
+[2025-06-17T20:07:13.731Z] info      - Using password from $PASSWORD
+[2025-06-17T20:07:13.731Z] info    - Not serving HTTPS
+[2025-06-17T20:07:13.731Z] info  Session server listening on /home/coder/.local/share/code-server/code-server-ipc.sock
+[20:07:19] 
+
+
+
+
+[20:07:19] Extension host agent started.
+[20:07:19] [192.168.65.1][46626af6][ExtensionHostConnection] Unknown reconnection token (never seen).
+[20:07:19] [192.168.65.1][14bc684e][ManagementConnection] Unknown reconnection token (never seen).

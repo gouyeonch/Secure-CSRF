@@ -1,2 +1,2 @@
 FROM nginx:alpine
-COPY attacker.html /usr/share/nginx/html/index.html
+COPY attacker.html /usr/share/nginx/html/
