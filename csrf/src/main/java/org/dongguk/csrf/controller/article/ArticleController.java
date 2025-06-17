@@ -26,9 +26,9 @@ public class ArticleController {
     public String newPostForm(HttpSession session, Model model) {
         if (session.getAttribute("user") == null) return "redirect:/login-form";
 
-        String csrfToken = UUID.randomUUID().toString();
-        session.setAttribute("csrfToken", csrfToken);
-        model.addAttribute("csrfToken", csrfToken);
+//        String csrfToken = UUID.randomUUID().toString();
+//        session.setAttribute("csrfToken", csrfToken);
+//        model.addAttribute("csrfToken", csrfToken);
         return "new";
     }
 
